@@ -226,8 +226,8 @@ if not data.empty:
             x=daily_sums['transaction_date'],
             y=daily_sums[bill_col],
             mode='lines+markers',
-            line=dict(color='#1E40AF', width=4),
-            marker=dict(color='#1E40AF', size=8),
+            line=dict(color='#60A5FA', width=4),
+            marker=dict(color='#60A5FA', size=8),
             name='Daily Revenue'
         ))
     
